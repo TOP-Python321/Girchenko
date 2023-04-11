@@ -7,3 +7,6 @@ age = 2023 - year_birth
 print(surname, name + ',', age)
 
 # Гирченко Роман, 24
+
+
+# ИТОГ: отлично — 3/3
