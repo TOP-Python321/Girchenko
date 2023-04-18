@@ -1,16 +1,22 @@
-num_one = float(input('Введите первое число: '))
-num_two = float(input('Введите второе число: '))
-num_three = float(input('Введите третье число: '))
+num_one = input('Введите первое число: ')
+num_two = input('Введите второе число: ')
+num_three = input('Введите третье число: ')
 sum_num = 0
 
-if num_one > 0:
-    sum_num += num_one
+if num_one.isdecimal() > 0:
+    sum_num += int(num_one)
+elif float(num_one) > 0:
+    sum_num += float(num_one)
 
-if num_two > 0:
-    sum_num += num_two
+if num_two.isdecimal() > 0:
+    sum_num += int(num_two)
+elif float(num_two) > 0:
+    sum_num += float(num_two)
     
-if num_three > 0:
-    sum_num += num_three
+if num_three.isdecimal() > 0:
+    sum_num += int(num_three)
+elif float(num_three) > 0:
+    sum_num += float(num_three)
     
 print(sum_num)
 
