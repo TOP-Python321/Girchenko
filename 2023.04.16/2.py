@@ -5,13 +5,13 @@ remains = divisible % divisor
 
 if remains == 0:
     print(f'{divisible} делится на {divisor} нацело \n'
-         f'частное: {answer}')
+          f'частное: {answer}')
 
 if remains != 0:
     print(f'{divisible} не делится на {divisor} нацело \n'
-         f'неполное частное: {answer}\n'
-         f'остаток: {remains}')
-         
+          f'неполное частное: {answer}\n'
+          f'остаток: {remains}')
+
 
 # 20 делится на 10 нацело
 # частное: 2

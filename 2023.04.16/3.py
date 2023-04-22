@@ -6,9 +6,9 @@ if year.isdecimal():
         print('Да')
     else:
         print('Нет')
-
 else:
     print('Вводите число!')
+
 
 # 904
 # Да

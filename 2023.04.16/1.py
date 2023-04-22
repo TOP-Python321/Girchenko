@@ -13,13 +13,13 @@ if num_two.isdecimal():
 elif float(num_two) > 0:
     sum_num += float(num_two)
 
-    
 if num_three.isdecimal():
     sum_num += int(num_three)
 elif float(num_three) > 0:
     sum_num += float(num_three)
     
 print(sum_num)
+
 
 # Введите первое число: 10
 # Введите второе число: -9

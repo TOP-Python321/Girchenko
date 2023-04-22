@@ -9,6 +9,7 @@ if color_first_cell == color_second_cell:
 else:
     print('Нет')
 
+
 # Введите значение первой клетки: a2
 # Введите значение второй клетки: h7
 # Да
