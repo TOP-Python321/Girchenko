@@ -4,6 +4,7 @@ count = 0
 
 for num in range((max_num + 1) // 10, max_num + 1):
     i = 2
+    # КОММЕНТАРИЙ: вот это очень хорошо оптимизированный алгоритм, молодец!
     while i * i <= num:
         if not num % i:
             break
@@ -11,11 +12,14 @@ for num in range((max_num + 1) // 10, max_num + 1):
     else: 
         count += 1
 
-print(count)      
+print(count)
 
-  
+
 # Введите разряд числа: 3
 # 143
 
 # Введите разряд числа: 6
 # 68906
+
+
+# ИТОГ: отлично — 5/5
