@@ -5,13 +5,11 @@ files_dict = {}
 
 for f in files:
     files_dict[f] = files_dict.get(f, 0) + 1
-    
     if files_dict[f] == 1:
         files_list.append(f)
     else:
         files_list.append(f[:f.find(".")] + "_" + str(files_dict[f]) + f[f.find("."):])
-    
-        
+
 print(*sorted(files_list), sep="\n")
 
 

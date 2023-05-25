@@ -1,5 +1,5 @@
 first_list = input("Введите список чисел: ").split()
-second_list = input("Введите второй списко чисел: ").split()
+second_list = input("Введите второй список чисел: ").split()
 
 for i in range(len(first_list)):
     if second_list == first_list[i:i + len(second_list)]:

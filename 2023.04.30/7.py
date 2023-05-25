@@ -2,14 +2,14 @@ import ref_7
 
 general_dictionary = {}
 
-for dict in ref_7.list_of_dicts:
-    for key, value in dict.items():
-        if key not in general_dictionary:
-            general_dictionary[key] = {value}
+for cities in ref_7.list_of_dicts:
+    for city, value in cities.items():
+        if city not in general_dictionary:
+            general_dictionary[city] = {value}
         else:
-            general_dictionary[key] = general_dictionary[key] | {value}
+            general_dictionary[city] = general_dictionary[city] | {value}
 
-print(*{f'{key!r}: {value}' for key, value in general_dictionary.items()}, sep=',\n')
+print(*{f'{city!r}: {value}' for city, value in general_dictionary.items()}, sep=',\n')
 
 
 # 'Тула': {2, 3},

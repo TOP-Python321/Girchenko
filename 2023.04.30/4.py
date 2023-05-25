@@ -2,15 +2,13 @@ dictionary_new = {}
 
 while True:
     user_input = input('Введите ключ и значение через пробел: ').split()
-    
     if not user_input:
         break
-        
     dictionary_new[user_input[0]] = user_input[1]
 
 inp_value = input('Введите значение из словаря: ')
 
-if key := {k for k in dictionary_new  if dictionary_new[k] == inp_value}:
+if key := {k for k in dictionary_new if dictionary_new[k] == inp_value}:
     print(*key)
 else:
     print('! value error !')
